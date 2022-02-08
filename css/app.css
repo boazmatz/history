@@ -113,4 +113,10 @@
         padding-top: 10%;
     }
 
+    .goToArticleText {
+        text-align: center;
+    }
+    .goToArticleButton {
+        color: navy;
+    }
 }

@@ -1,0 +1,116 @@
+#about {
+    background: url(../images/about-bg.jpg) no-repeat top center;
+    background-size: cover;
+    padding-bottom: 30%;
+}
+.magishim {
+    font-size: 132%;
+    width: 70%;
+}
+
+@media only screen and (max-width: 900px) {
+    #about {
+        background: url(/Users/boazmatzliah/2workspace/history/images/bg-moblie.png) no-repeat top center;
+        background-size: cover;
+        padding-top: 3%;
+        background-position: unset;
+    }
+
+    .MainDiv {
+        color: white;
+    }
+    
+    .pinfo {
+        width: 60% !important;
+    }
+    h1 {
+        color: white !important;
+    }
+    .aboutDiv {
+        padding-top: 10%;
+    }
+
+}
+.profile {
+    padding-top: 10%;
+}
+.profile img,
+.profile figcaption {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1em;
+}
+.profile img {
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    margin-right: 1em;
+  }
+  .profile figcaption h3 {
+    margin-top: 0;
+  }
+
+  h1 {
+    color: #272727;
+    font-size: 3em;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.aboutDiv {
+    padding-top: 10%;
+}
+
+
+.team-thumb {
+    background-color: #f9f9f9;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .team-info {
+    padding: 20px 30px 0 30px;
+  }
+
+  .team-contact-info {
+    border-top: 1px solid #e9e9e9;
+    padding-top: 1.2em;
+    margin-top: 1.5em;
+  }
+
+  .team-contact-info .fa {
+    margin-right: 5px;
+    display: inline-block;
+  }
+
+  .team-contact-info p {
+    margin-bottom: 2px;
+  }
+
+  .team-contact-info a {
+    color: #757575;
+  }
+
+  .team-thumb .social-icon li {
+    font-weight: 500;
+  }
+
+  .team-thumb .social-icon li a {
+    background: #ffffff;
+    border-radius: 100%;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 2px 0 2px;
+  }
+
+  .team-thumb .social-icon {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 0.5s 0.2s;
+    text-align: center;
+    position: relative;
+    top: 0;
+  }

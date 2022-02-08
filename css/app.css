@@ -6,6 +6,9 @@
 .magishim {
     font-size: 132%;
     width: 70%;
+    float: right;
+    margin-left: 3% !important;
+    padding-right: 5%;
 }
 .profile {
     padding-top: 10%;
@@ -91,7 +94,7 @@
     position: relative;
     top: 0;
   }
-
+  
   @media only screen and (max-width: 900px) {
     #about {
         background: url(../images/bg-moblie.png) no-repeat top center;
@@ -105,10 +108,12 @@
     }
     
     .pinfo {
-        width: 60% !important;
+      width: 50% !important;
+      float: right;
     }
     h1 {
         color: white !important;
+        padding-right: 0%;
     }
     .aboutDiv {
         padding-top: 10%;
@@ -119,6 +124,9 @@
     }
     .goToArticleButton {
         color: navy;
+    }
+    .movieYoutube {
+      width:80% !important;
     }
 }
 
@@ -131,4 +139,5 @@
 }
 .navbar {
   background-color: #ff5a5a;
+  margin-bottom: 0% !important;
 }

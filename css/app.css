@@ -7,30 +7,6 @@
     font-size: 132%;
     width: 70%;
 }
-
-@media only screen and (max-width: 900px) {
-    #about {
-        background: url(../images/bg-moblie.png) no-repeat top center;
-        background-size: cover;
-        padding-top: 3%;
-        background-position: unset;
-    }
-
-    .MainDiv {
-        color: white;
-    }
-    
-    .pinfo {
-        width: 60% !important;
-    }
-    h1 {
-        color: white !important;
-    }
-    .aboutDiv {
-        padding-top: 10%;
-    }
-
-}
 .profile {
     padding-top: 10%;
 }

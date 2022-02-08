@@ -10,7 +10,7 @@
 
 @media only screen and (max-width: 900px) {
     #about {
-        background: url(/Users/boazmatzliah/2workspace/history/images/bg-moblie.png) no-repeat top center;
+        background: url(../images/bg-moblie.png) no-repeat top center;
         background-size: cover;
         padding-top: 3%;
         background-position: unset;
